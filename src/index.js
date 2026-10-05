@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Car from './components/Car';
+import Contador from './components/Contador.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <>
-      <Car marca="Audi" modelo="A3" velocidadmaxima="240" aceleracion="25" />
-      <Car marca="BMW" modelo="X5" velocidadmaxima="250" aceleracion="20" />
+      {/* Coche Audi A3: marca, modelo, velocidad máxima y aceleración */}
+      {/* <Car marca="Audi" modelo="A3" velocidadmaxima="240" aceleracion="25" /> */}
+      <Contador inicio="2"/>
+      <Contador inicio="15"/>
+      {/* Coche BMW X5: marca, modelo, velocidad máxima y aceleración */}
+      {/* <Car marca="BMW" modelo="X5" velocidadmaxima="250" aceleracion="20" /> */}
     </>
   </React.StrictMode>
 );
