@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Car from './components/Car';
 import Contador from './components/Contador.jsx';
+import DibujosComplejosArray from './components/DibujosComplejosArray.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,10 +12,11 @@ root.render(
     <>
       {/* Coche Audi A3: marca, modelo, velocidad máxima y aceleración */}
       {/* <Car marca="Audi" modelo="A3" velocidadmaxima="240" aceleracion="25" /> */}
-      <Contador inicio="2"/>
-      <Contador inicio="15"/>
+     {/* <Contador inicio="2"/> */}
+      {/* <Contador inicio="15"/> */}
       {/* Coche BMW X5: marca, modelo, velocidad máxima y aceleración */}
       {/* <Car marca="BMW" modelo="X5" velocidadmaxima="250" aceleracion="20" /> */}
+      <DibujosComplejosArray />
     </>
   </React.StrictMode>
 );
